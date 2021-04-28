@@ -8,7 +8,7 @@
  *
  * @author LENOVO
  */
-import Project.ConnectionProvider;
+import Model.ConnectionProvider;
 import java.awt.HeadlessException;
 import java.sql.*;
 import javax.swing.JOptionPane;
