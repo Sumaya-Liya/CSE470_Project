@@ -1,5 +1,8 @@
+package controller;
+
 
 import javax.swing.JOptionPane;
+import view.home;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
