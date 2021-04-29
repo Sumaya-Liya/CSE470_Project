@@ -1,4 +1,9 @@
+package view;
 
+
+import controller.addDiagnosisInformation;
+import controller.addNewPatientRecord;
+import controller.updatePatientRecord;
 import javax.swing.JOptionPane;
 
 /*
@@ -122,7 +127,7 @@ public class home extends javax.swing.JFrame {
         
         if( l == 0){
             setVisible(false);
-            new login().setVisible(true);
+            new controller.login().setVisible(true);
         
         }
     }//GEN-LAST:event_jButton7ActionPerformed
