@@ -1,4 +1,7 @@
+package controller;
+
 import javax.swing.JOptionPane;
+import view.home;
 public class login extends javax.swing.JFrame {
 
     /**
