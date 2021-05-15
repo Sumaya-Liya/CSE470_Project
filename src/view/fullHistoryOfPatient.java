@@ -129,6 +129,9 @@ public class fullHistoryOfPatient extends javax.swing.JFrame {
             new fullHistoryOfPatient().setVisible(true);
         });
     }
+     String history(String h){
+        return h;
+     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;

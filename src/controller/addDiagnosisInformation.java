@@ -298,6 +298,11 @@ public int flag = 0;
             new addDiagnosisInformation().setVisible(true);
         });
     }
+    
+    int diagnosis_info(int n, int p){
+    return (n+p)*n;
+        
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
