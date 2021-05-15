@@ -278,6 +278,10 @@ public class addNewPatientRecord extends javax.swing.JFrame {
             new addNewPatientRecord().setVisible(true);
         });
     }
+    
+    int patient_info(int a){
+        return a*a;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
