@@ -23,6 +23,7 @@ public class ConnectionProvider {
             
             Class.forName("com.mysql.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","123456");
+            
             return con;
             
         }
@@ -31,6 +32,15 @@ public class ConnectionProvider {
         }
         
       }
+    public static void main(String args[]){
+        Connection con = ConnectionProvider.getCon();
+    
+    }
+    
+    String db(String connected){
+        return connected;
+    
+    }
    
     
 }
