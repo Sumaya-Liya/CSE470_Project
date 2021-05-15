@@ -181,6 +181,10 @@ public class home extends javax.swing.JFrame {
             new home().setVisible(true);
         });
     }
+    
+    int add (int a, int b){
+    return a+b;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton2;
