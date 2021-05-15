@@ -141,6 +141,17 @@ public class login extends javax.swing.JFrame {
             new login().setVisible(true);
         });
     }
+    
+    
+    
+        String name(String admin){
+            return admin;
+        }
+        String password(String pass){
+            return pass;
+        }
+    
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
