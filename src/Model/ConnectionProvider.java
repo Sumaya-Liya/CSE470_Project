@@ -14,19 +14,23 @@ package Model;
 import java.sql.*;
 public class ConnectionProvider {
     
-    
-    
+    /**
+     *
+     * @return
+     */
     public static Connection getCon(){
         try{
             
             Class.forName("com.mysql.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","123456");
             return con;
+            
         }
         catch(ClassNotFoundException | SQLException e){
             return null;
         }
         
       }
+   
     
 }
